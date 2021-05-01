@@ -1,6 +1,6 @@
 <?php
 
-namespace WeDevelop4You\LaravelHue\Providers;
+namespace CodeType\LaravelHue\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
