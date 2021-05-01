@@ -1,0 +1,33 @@
+{
+    "name": "codetype/laravel-hue",
+    "description": "",
+    "license": "MIT",
+    "keywords": [],
+    "authors": [
+        {
+            "name": "Pascal Huberts",
+            "email": "contact@wedevelop4you.nl"
+        },
+        {
+            "name" : "Joey Roeters",
+            "email": "info@Fastry.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeType\\LaravelHue\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodeType\\LaravelHue\\Providers\\HueServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
